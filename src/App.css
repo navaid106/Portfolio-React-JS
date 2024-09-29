@@ -1,0 +1,26 @@
+/* In your App.css */
+
+*{
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+.card {
+    background-color: #f8f9fa;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+  
+  .card-text {
+    color: #6c757d;
+  }
+  
